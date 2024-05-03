@@ -1,0 +1,165 @@
+/* Start */
+.content {
+    padding: 0 5%;
+}
+
+.content .content-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content .content-title h1 {
+    font-size: 2rem;
+    text-shadow: 0px 0px 1px var(--primary);
+}
+
+.content .content-title h1 span {
+    color: var(--secondary);
+}
+
+.content .content-title .title-secundare {
+    padding: 0 .5rem 0 0;
+    font-size: 1.2rem;
+    border-right: 5px solid var(--primary);
+}
+
+.content .content-list {
+    margin: 0 0 1rem;
+    padding: 0 0 1rem;
+    display: flex;
+    justify-content: center;
+    border-bottom: 3px solid var(--primary);
+}
+
+.content .content-list a {
+    margin: .5rem;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: var(--primary);
+    color: var(--bg);
+}
+
+.content .content-list a:hover {
+    background-color: var(--secondary);
+}
+
+.content .content-transaction {
+    padding: 0 10%;
+}
+
+.content .content-transaction table {
+    width: 100%;
+    text-align: center;
+    border-right: 2px solid rgb(100, 100, 100);
+    border-left: 2px solid rgb(100, 100, 100);
+}
+
+.content .content-transaction table thead, tfoot {
+    background-color: rgb(100, 100, 100);
+    color: var(--bg);
+    text-transform: uppercase;
+}
+
+.content .content-transaction table tbody {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.content .content-transaction table tbody td {
+    border-bottom: 2px solid rgb(100, 100, 100);
+}
+
+.content .content-transaction table tbody td .not-confirm {
+    color: rgb(150, 150, 150);
+    font-size: 2rem;
+}
+
+.content .content-transaction table tbody td .confirm {
+    color: green;
+    font-size: 2rem;
+}
+
+.content .content-main h1 {
+    margin: 0;
+}
+
+.content .content-main .content-container {
+    margin: 1rem 0 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.content .content-main .content-container .content-card {
+    margin: .5rem;
+    padding: 1rem;
+    width: 15rem;
+    border-radius: .5rem;
+    box-shadow: 0px 0px 20px 0px var(--secondary);
+    text-align: center;
+}
+
+.content .content-main .content-container .content-card .content-img {
+    margin: 0 0 3rem;
+    width: 14.5rem;
+    height: 11rem;
+}
+
+.content .content-main .content-container .content-card .content-img img {
+    padding: .2rem;
+    border-radius: .5rem;
+    border: 1px solid var(--primary);
+    width: 100%;
+    object-fit: cover;
+}
+
+.content .content-main .content-container .content-card h3 {
+    margin: 0;
+    padding: 0 0 .5rem;
+    font-size: 1.2rem;
+    text-shadow: 0px 0px 2px var(--primary);
+}
+
+.content .content-main .content-container .content-card span {
+    font-weight: 600;
+}
+
+.content .content-main .content-container .content-card form button {
+    margin: 1rem 0 0;
+    padding: .5rem 2rem;
+    background: none;
+    border: none;
+    background-color: var(--primary);
+    border-radius: .5rem;
+    color: var(--bg);
+    font-size: 1.2rem;
+}
+
+.content .content-main .content-container .content-card form button:hover {
+    background-color: var(--secondary);
+    cursor: pointer;
+}
+
+.content .content-main .content-container .not-data {
+    margin: 1rem 0;
+    padding: 2rem 4rem;
+    border-radius: 1rem;
+    text-align: center;
+    background-color: rgba(100, 100, 100, .8);
+}
+
+.content .content-main .content-container .not-data img {
+    border-radius: 1rem;
+    width: 15rem;
+}
+
+.content .content-main .content-container .not-data h1 {
+    font-size: 1.5rem;
+    color: var(--secondary);
+    text-shadow: 0px 0px 10px var(--bg);
+}
+/* End */

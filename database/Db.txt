@@ -1,0 +1,9 @@
+// Cara memasukkan data ke dalam database device Anda (Impor)
+- Buka localhost/phpmyadmin/
+- Buat database baru dengan nama 'rm_motor_db' (tanpa menggunakan '')
+- Masuk ke menu Impor
+- Klik 'Pilih File'
+- Pilih dan masukkan file 'rm_motor_db.sql' yang berada dalam folder 'database'
+- Kemudian Refresh halaman (ctrl + r)
+
+-- Database telah tersimpan di localhost device Anda --

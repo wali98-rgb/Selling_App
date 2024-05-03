@@ -1,0 +1,25 @@
+// Login sebagai Admin
+Nama : Admin
+Password : admin123
+
+// Login sebagai Pembeli
+Nama : Dapit
+Password : password
+
+Nama : Mia
+Password : inimia
+
+Nama : Budi
+Password : user123
+
+
+// Penggunaan secret password menggunakan methode md5
+- Untuk mencari tahu password silahkan kunjung website md5online.org untuk mengetahui password User/Admin
+- Encrypt : Untuk membuat password menjadi code acak
+- Decrypt : Untuk melihat code acak menjadi password
+
+// Jika nama pembeli lebih dari 1 kata
+- Ketika login masukkan semua kata dalam nama pembeli (Nama Lengkapnya)
+- Perhatikan besar kecil huruf yang digunakan ('Budi' == benar, 'budi' == salah)
+
+// Login menggunakan nama_pembeli dan password

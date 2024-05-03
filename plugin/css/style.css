@@ -1,0 +1,24 @@
+:root {
+    --primary: rgb(0, 51, 124);
+    --secondary: rgb(205, 80, 4);
+    --thirdy: rgb(111, 26, 182);
+    --bg: rgb(240, 238, 237);
+    --text-bg: rgb(6, 0, 71);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg);
+    color: var(--text-bg);
+    font-family: 'Roboto Slab', serif;
+}
+
+* {
+    text-decoration: none;
+    list-style-type: none;
+}
